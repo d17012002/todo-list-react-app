@@ -1,5 +1,6 @@
 {
   "name": "es6-spread-operator-practice",
+  "homepage": "http://d17012002.github.io/todo-list-react-app",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -13,6 +14,8 @@
     "typescript": "3.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
